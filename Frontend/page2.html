@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/page2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cointab</title>
+</head>
+<body>
+    <center>
+    <h1>User Details</h1>
+    <div>
+        <select id="filter">
+            <option value="">Select Category</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+      </div>
+    <table id="userTable">
+        <thead>
+          <tr>
+            <th>Gender</th>
+            <th>Title</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>postcode</th>
+            <th>Email</th>
+            <th>Username</th>
+            <th>Date of Birth</th>
+            <th>Age</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Update the rows here using js -->
+        </tbody>
+      </table>
+  
+
+    <div id="pagination">
+        <button id="prev">Previous</button>
+    <input type="number" id="pageNumberInput" min="1" />
+    <button id="goToPage">Go to Page</button>
+    <button id="next">Next</button>
+    </div>
+</center>
+</body>
+
+<script src="./scripts/page2.js"></script>
+</html>

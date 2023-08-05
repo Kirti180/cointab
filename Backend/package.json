@@ -1,0 +1,30 @@
+{
+  "name": "cointab",
+  "version": "1.0.0",
+  "description": "Create a simple 2-page website using Node.js and SQL database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirti180/cointab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirti180/cointab/issues"
+  },
+  "homepage": "https://github.com/Kirti180/cointab#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1",
+    "sequelize-paginate": "^1.1.6"
+  }
+}

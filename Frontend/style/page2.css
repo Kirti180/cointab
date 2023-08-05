@@ -1,0 +1,41 @@
+/* Add some styles to make the table look beautiful */
+
+/* Set the table border and spacing */
+#userTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the table header */
+  #userTable th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the table cells */
+  #userTable td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Add zebra-striping to the table rows */
+  #userTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add hover effect to the table rows */
+  #userTable tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  #pagination{
+    margin-top: 2%;
+   
+  }
+  button{
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0.5%;
+  }
