@@ -34,6 +34,10 @@ Provide instructions and examples on how to use your project.
 
 
 
+
+https://github.com/Kirti180/cointab/assets/115463536/ee33d267-e476-4579-bedc-f027bce72237
+
+
 ## Technology Stack
 List and provide a brief overview of the technologies used in the project.
 
