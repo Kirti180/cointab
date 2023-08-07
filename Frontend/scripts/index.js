@@ -18,7 +18,7 @@ function fetchData() {
   // Set the isFetching flag to true to indicate fetch is starting
   isFetching = true;
 
-  fetch("http://localhost:3001/fetch-users")
+  fetch("http://localhost:8080/fetch-users")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
@@ -52,7 +52,7 @@ function fetchdelete() {
     if (result.isConfirmed) {
       isFetching = true;
 
-      fetch("http://localhost:3001/delete-users", { method: "GET" })
+      fetch("http://localhost:8080/delete-users", { method: "GET" })
         .then((response) => {
           if (response.ok) {
             return response.text(); // If the response is successful, return the response body as text

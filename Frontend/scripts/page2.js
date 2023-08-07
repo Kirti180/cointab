@@ -7,7 +7,7 @@ const genderFilterSelect = document.getElementById("filter");
 function fetchData(pageNumber) {
   const filterValue = genderFilterSelect.value; // Get the selected gender filter
   fetch(
-    `http://localhost:3001/api/users?page=${pageNumber}${
+    `http://localhost:8080/api/users?page=${pageNumber}${
       filterValue ? "&gender=" + filterValue : ""
     }`
   )

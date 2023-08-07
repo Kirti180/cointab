@@ -227,7 +227,7 @@ app.get("/api/users", async (req, res) => {
 });
 
 seq.sync().then(() => {
-  app.listen(3001, () => {
+  app.listen(8080, () => {
     console.log("Server Started");
   });
 });
