@@ -3,8 +3,6 @@
 ## Introduction
 Create a simple 2-page website using Node.js and SQL database.
 
-## Deployed App
-https://deployed-site.whatever
 
 ## Video Walkthrough of the project
 
